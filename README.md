@@ -1,4 +1,4 @@
-# Albÿno OS
+# Albÿno Repo
 
 This is an example template to setup a Github repo for [Albÿno OS](https://github.com/EtK2000/Alb-no-OS).
 
@@ -8,7 +8,7 @@ Just fork/clone this repo add your files and change base.repo to your needs<br>
 <br>
 To add the repo to a computer running Albÿno OS run (replace &lt;repo&gt; with the repo url)
 ### add-apt-repository &lt;repo&gt;<br>
-The repo url should look something like "https://raw.githubusercontent.com/EtK2000/Alb-no-OS/master/base.repo"
+The repo url should look something like "https://raw.githubusercontent.com/EtK2000/Alb-no-Repo/master/base.repo"
 
 ## base.repo format
 
