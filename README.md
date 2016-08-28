@@ -1,10 +1,10 @@
 # Albÿno OS
 
-This is an example template to setup a Github repo for [Albÿno OS].(https://github.com/EtK2000/Alb-no-OS)
+This is an example template to setup a Github repo for [Albÿno OS](https://github.com/EtK2000/Alb-no-OS).
 
 ## Setup
 
-Just fork/clone this repo and change base.repo to your needs<br>
+Just fork/clone this repo add your files and change base.repo to your needs<br>
 <br>
 To add the repo to a computer running Albÿno OS run (replace &lt;repo&gt; with the repo url)
 ### add-apt-repository &lt;repo&gt;<br>

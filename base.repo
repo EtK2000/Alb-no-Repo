@@ -1,0 +1,19 @@
+# base of the module repository, available vars are:
+#	$name  - name of the module file (string) [required]
+#	$ver   - version of the module (number)
+#
+[basepath]=https://raw.githubusercontent.com/EtK2000/Alb-no-OS/master/modules/$name
+# format of lines, available vars are:
+#	$alone - is the module standalone? (0/1) [defaults to 1]
+#	$dep   - modules the module depends on (string) [format: <dep 1>;<dep 2>;<dep 3>]
+#	$disp  - display name of the module (string) [defaults to $name]
+#	$name  - name of the module file (string)
+#	$max   - the maximum AlbÃ¿no version (number >= $min) [normally build version, defaults to infinity]
+#	$min   - the minimum AlbÃ¿no version required (number >= 0) [defaults to 0]
+#	$req   - is the module required by the source? (0/1) [defaults to 0]
+#	$run   - the url of the file to be run at startup for this module [defaults to nil]
+#	$ver   - version of the module (number > 0)
+#
+# not all vars have to be filled in, but $name and $ver are required
+[format]=$name,$ver,$req,$dep,$min,$max
+example,1
