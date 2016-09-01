@@ -2,7 +2,7 @@
 #	$name  - name of the module file (string) [required]
 #	$ver   - version of the module (number)
 #
-[basepath]=https://raw.githubusercontent.com/EtK2000/Alb-no-OS/master/modules/$name
+[basepath]=https://raw.githubusercontent.com/EtK2000/Alb-no-Repo/master/modules/$name
 # format of lines, available vars are:
 #	$alone - is the module standalone? (0/1) [defaults to 1]
 #	$dep   - modules the module depends on (string) [format: <dep 1>;<dep 2>;<dep 3>]
