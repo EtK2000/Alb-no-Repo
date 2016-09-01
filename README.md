@@ -28,7 +28,7 @@ $name  - name of the module file (string)<br>
 $max   - the maximum Albÿno version (number &gt;= $min) [normally build version, defaults to infinity]<br>
 $min   - the minimum Albÿno version required (number &gt;= 0) [defaults to 0]<br>
 $req   - is the module required by the source? (0/1) [defaults to 0]<br>
-$run   - the url of the file to be run at startup for this module [defaults to nil]<br>
+$run   - the url of the init file for this module, relative to basepath [defaults to nil]<br>
 $ver   - version of the module (number &gt; 0)<br>
 <br>
 Not all vars have to be filled in, but $name and $ver are required<br>
